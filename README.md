@@ -10,7 +10,8 @@
 
 ## Semi-Supervised Learning 
 * Used Pseudo-Labeling method using the same encoder architecture as in supervised learning 
-| Model         | Supervised Validation Accuracy         | Semi-Supervised Validation Accuracy   |  Change in Accuracy  |
+`| Model         | Supervised Validation Accuracy         | Semi-Supervised Validation Accuracy   |  Change in Accuracy  |
 | ------------- |:-------------:| -----:|                     ------:                                                                       |
 | CNN Model     | 59.4          | 64.62 |  5.08                                                                         |
 | ResNet-50 Model| 68.73        |   72  |  3.27                                                                         | 
+`
