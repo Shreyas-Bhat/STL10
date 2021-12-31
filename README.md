@@ -16,7 +16,6 @@
 | CNN Model     | 59.4          | 64.62 |  5.08                                                                         |
 | ResNet-50 Model| 68.73        |   72  |  3.27                                                                         | 
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+## Self-Supervised Learning 
+
+* For this I used the SimClr framework for contrastive learning and get a valiation accuracy of 53.30%
