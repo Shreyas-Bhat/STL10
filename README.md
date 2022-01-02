@@ -4,8 +4,11 @@
 
 ## Supervised Learning 
 * Used ResNet-50 Architecture and got validation accuracy of 68.7
-![image](https://user-images.githubusercontent.com/56354373/147820297-5f38a357-ebdf-48e2-a6dd-1971ea3e2939.png)
-![image](https://user-images.githubusercontent.com/56354373/147820300-aa912ce1-bb22-4e07-a9f4-a06ecd314f2b.png)
+<p float="left">
+<img src="images/2.png" width="400"/>
+<img src="images/3.png" width="400"/>
+</p>
+
 
 ## Semi-Supervised Learning 
 * Used Pseudo-Labeling method using the same encoder architecture as in supervised learning 
@@ -24,3 +27,4 @@
 ## AutoAugment 
 * I tried to implement semi-supervised tasks using SimClr and augment images using AutoAugment method. The operations we will be using are shearing, translating, rotation,
 auto_contrasting, brightness, sharpness, cutout, etc., and the policies for each augmentation are selected randomly and applied in our dataset for producing image augmentations
+<img src="images/1.png" width="500"/>
