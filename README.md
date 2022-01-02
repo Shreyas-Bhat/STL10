@@ -21,10 +21,15 @@
 ## Self-Supervised Learning 
 
 * For this I used the SimClr framework for contrastive learning and get a valiation accuracy of 53.30%
-![68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d2d764834504b704539596f2f586f3461324259657276492f414141414141414146704d2f766146447750584f79416f6b4143385868383532447a4f67457332324e68625877434c634247417](https://user-images.githubusercontent.com/56354373/147820857-56e0cc92-9d23-434a-874a-bfd79cfe6183.gif)
-
+<p align="center">
+<img src="images/4.gif" width="400"/>
+</p>
 
 ## AutoAugment 
 * I tried to implement semi-supervised tasks using SimClr and augment images using AutoAugment method. The operations we will be using are shearing, translating, rotation,
 auto_contrasting, brightness, sharpness, cutout, etc., and the policies for each augmentation are selected randomly and applied in our dataset for producing image augmentations
+<p align="center">
 <img src="images/1.png" width="500"/>
+</p>
+
+
